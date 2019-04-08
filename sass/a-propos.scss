@@ -1,0 +1,24 @@
+/* Partie Justine, A propos */
+.en-tete{
+    width: 100vw;
+    height: 25vh; 
+    position: absolute;   
+    background-color: #ff2e31;
+}
+.en-tete ul{
+   
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 75%;
+  }
+.en-tete li{
+    margin-left: 80px;
+    font-family: "reglobold", sans-serif;
+}
+.en-tete li a{
+    margin-right: 70px;
+    font-family: "reglobold", sans-serif;
+}
