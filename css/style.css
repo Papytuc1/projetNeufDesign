@@ -8,6 +8,11 @@
   src: url("../asset/font/font-letter-gothic/LetterGothicStd.woff2") format("woff2"), url("../asset/font/font-letter-gothic/LetterGothicStd.woff") format("woff");
   font-weight: 500;
   font-style: normal; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 .path {
   font-family: "reglobold", sans-serif;
   font-size: 144px;
@@ -20,5 +25,27 @@
     stroke-dashoffset: 1000; }
   to {
     stroke-dashoffset: 0; } }
+/* Partie Justine, A propos */
+.en-tete {
+  width: 100vw;
+  height: 25vh;
+  position: absolute;
+  background-color: #ff2e31; }
+
+.en-tete ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 75%; }
+
+.en-tete li {
+  margin-left: 80px;
+  font-family: "reglobold", sans-serif; }
+
+.en-tete li a {
+  margin-right: 70px;
+  font-family: "reglobold", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
