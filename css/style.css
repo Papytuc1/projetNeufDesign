@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'reglobold';
+  src: url("../asset/font/reglo-bold-webfont.woff2") format("woff2"), url("../asset/font/reglo-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Letter Gothic Std';
+  src: url("../asset/font/font-letter-gothic/LetterGothicStd.woff2") format("woff2"), url("../asset/font/font-letter-gothic/LetterGothicStd.woff") format("woff");
+  font-weight: 500;
+  font-style: normal; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.path {
+  font-family: "reglobold", sans-serif;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate infinite; }
+
+.svg-container {
+  height: auto;
+  width: 100%; }
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000; }
+  to {
+    stroke-dashoffset: 0; } }
+/* Partie Justine, A propos */
+.en-tete {
+  width: 100vw;
+  height: 25vh;
+  position: absolute;
+  background-color: #ff2e31; }
+
+.en-tete ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 75%; }
+
+.en-tete li {
+  margin-left: 80px;
+  font-family: "reglobold", sans-serif; }
+
+.en-tete li a {
+  margin-right: 70px;
+  font-family: "reglobold", sans-serif; }
+
+/* 
+    Created on : 8 avr. 2019, 14:42:41
+    Author     : eric
+*/
+
+/*# sourceMappingURL=style.css.map */
