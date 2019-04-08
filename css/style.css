@@ -8,6 +8,11 @@
   src: url("../asset/font/font-letter-gothic/LetterGothicStd.woff2") format("woff2"), url("../asset/font/font-letter-gothic/LetterGothicStd.woff") format("woff");
   font-weight: 500;
   font-style: normal; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 .path {
   font-family: "reglobold", sans-serif;
   font-size: 144px;
