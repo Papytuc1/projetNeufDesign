@@ -1,0 +1,15 @@
+.container-accueil{
+    display: flex;
+    justify-content: space-around;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.letter{
+    font-family: $font-titre;
+    writing-mode: sideways-lr;
+}
