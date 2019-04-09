@@ -3,27 +3,56 @@
     width: 100vw;
     height: 11vh;  
     background-color:#ff0000;
+    display: flex;
+    justify-content: flex-end;
 }
-.en-tete ul{
-    width: 100%;
+
+.en-tete ul{ /* modif par Eric */
+    width: 50vh;
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     height: 75%;
-  }
-.en-tete li{
+    justify-content: flex-end;
+}
+
+#vertical-line{ /* implant par Eric */
+    width:1px;
+    height:10%;
+    position:absolute;
+     background-image: linear-gradient(rgba(255,255,255,0), white,rgba(255,255,255,0));
+    margin:0;
+    padding:0;
+    right: 18%;
+}
+
+.en-tete li{ /* modif par Eric */
+    margin-top: 5vh;
     margin-left: 8vw;
     font-family: "reglobold", sans-serif;
     color: white;
-    
 }
-.en-tete li a{
+
+.en-tete li a{ /* modif par Eric */
     margin-right: 70px;
     font-family: $font-titre;
     text-decoration: none;
     color: white;
 }
+
+.en-tete li img { /* modif par Eric */
+    height: 110%;
+}
+
+.en-tete section {
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.en-tete section img {
+    height: 10vh;
+    margin-right: 4vh;
+}
+
 .aside-propos h2{
     font-family: "reglobold", sans-serif;
     color: #ff0000;
@@ -39,7 +68,7 @@
     margin-left: 8vw;
     margin-top: 4.5vw;
     height: 30vw;
-    
+
 }
 .aside-propos p{
     font-weight: bold;
@@ -68,8 +97,8 @@
     width: 10vw;
 }
 .n{
-color: #b50065;
-font-family: "reglobold", sans-serif;
+    color: #b50065;
+    font-family: "reglobold", sans-serif;
 }
 .d{
     font-family: "reglobold", sans-serif;

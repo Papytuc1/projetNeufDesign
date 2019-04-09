@@ -42,26 +42,54 @@ svg {
 .en-tete {
   width: 100vw;
   height: 11vh;
-  background-color: #ff0000; }
+  background-color: #ff0000;
+  display: flex;
+  justify-content: flex-end; }
 
 .en-tete ul {
-  width: 100%;
+  /* modif par Eric */
+  width: 50vh;
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  height: 75%; }
+  height: 75%;
+  justify-content: flex-end; }
+
+#vertical-line {
+  /* implant par Eric */
+  width: 1px;
+  height: 10%;
+  position: absolute;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), white, rgba(255, 255, 255, 0));
+  margin: 0;
+  padding: 0;
+  right: 18%; }
 
 .en-tete li {
+  /* modif par Eric */
+  margin-top: 5vh;
   margin-left: 8vw;
   font-family: "reglobold", sans-serif;
   color: white; }
 
 .en-tete li a {
+  /* modif par Eric */
   margin-right: 70px;
   font-family: "reglobold", sans-serif;
   text-decoration: none;
   color: white; }
+
+.en-tete li img {
+  /* modif par Eric */
+  height: 110%; }
+
+.en-tete section {
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end; }
+
+.en-tete section img {
+  height: 10vh;
+  margin-right: 4vh; }
 
 .aside-propos h2 {
   font-family: "reglobold", sans-serif;
@@ -174,17 +202,5 @@ nav ul li a {
     Created on : 8 avr. 2019, 14:42:41
     Author     : eric
 */
-.container-contact {
-  width: 100vw;
-  height: 200vh;
-  background: url(../asset/img/contact-bg.jpg) no-repeat;
-  background-size: contain; }
-
-.left-menu {
-  display: flex; }
-
-.menu-contact {
-  justify-content: space-between;
-  flex-direction: row; }
 
 /*# sourceMappingURL=style.css.map */
