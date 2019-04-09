@@ -1,9 +1,8 @@
 /* Partie Justine, A propos */
 .en-tete{
     width: 100vw;
-    height: 25vh; 
-    position: absolute;   
-    background-color: #ff2e31;
+    height: 11vh;  
+    background-color:#ff0000;
 }
 .en-tete ul{
     width: 100%;
@@ -14,10 +13,82 @@
     height: 75%;
   }
 .en-tete li{
-    margin-left: 80px;
+    margin-left: 8vw;
     font-family: "reglobold", sans-serif;
+    color: white;
+    
 }
 .en-tete li a{
     margin-right: 70px;
+    font-family: $font-titre;
+    text-decoration: none;
+    color: white;
+}
+.aside-propos h2{
     font-family: "reglobold", sans-serif;
+    color: #ff0000;
+    letter-spacing: 0.3vh;
+    font-weight: inherit;
+}
+.aside-propos{
+    color:#603896;
+    flex-direction: column;
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 8vw;
+    margin-top: 4.5vw;
+    height: 30vw;
+    
+}
+.aside-propos p{
+    font-weight: bold;
+    font-family: $font-texte ;
+    line-height: 2vw;
+    font-size: 0.8vw;
+}
+.container-propos{
+    display: flex;
+    height: 77vh;
+}
+.article-propos{
+    width: 57%;
+}
+.design h1{
+    font-family: "reglobold", sans-serif;
+    writing-mode: sideways-lr;
+    font-size: 13.2rem;
+    font-weight: inherit;
+    margin-top: -12.3vw;
+    letter-spacing: 3vw;
+    color:#ad9aca;
+    opacity: 0.5;
+}
+.separation{
+    width: 10vw;
+}
+.n{
+color: #b50065;
+font-family: "reglobold", sans-serif;
+}
+.d{
+    font-family: "reglobold", sans-serif;
+    writing-mode: sideways-lr;
+    font-size: 13.2rem;
+    font-weight: inherit;
+    color: #b50065;
+    opacity: 0.5;
+    margin-left: 3vw;
+}
+.en-bas{
+
+    width: 100vw;
+    height: 12vh;  
+    background-color:#ff0000;
+    display: flex;
+    justify-content: center;
+}
+.design h2{
+    font-family: "reglobold", sans-serif;
+    writing-mode: sideways-lr;
 }
