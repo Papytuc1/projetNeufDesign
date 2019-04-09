@@ -1,11 +1,14 @@
 .path {
     font-family: $font-titre;
-    font-size: 144px;
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: dash 5s linear alternate infinite;
+    animation: dash 10s linear forwards;
   }
-  
+  svg{
+    height: 120vh;
+    width: auto;
+    transform: translateY(-35vh)
+  }
   @keyframes dash {
     from {
       stroke-dashoffset: 1000;

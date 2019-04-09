@@ -15,10 +15,14 @@
 
 .path {
   font-family: "reglobold", sans-serif;
-  font-size: 144px;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 5s linear alternate infinite; }
+  animation: dash 10s linear forwards; }
+
+svg {
+  height: 120vh;
+  width: auto;
+  transform: translateY(-35vh); }
 
 @keyframes dash {
   from {
@@ -110,6 +114,21 @@
   justify-content: center; }
 
 .design h2 {
+  font-family: "reglobold", sans-serif;
+  writing-mode: sideways-lr; }
+
+.container-accueil {
+  display: flex;
+  justify-content: space-around; }
+
+nav ul {
+  list-style: none; }
+
+nav ul li a {
+  text-decoration: none;
+  color: black; }
+
+.letter {
   font-family: "reglobold", sans-serif;
   writing-mode: sideways-lr; }
 
