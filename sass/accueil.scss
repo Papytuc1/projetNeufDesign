@@ -1,15 +1,43 @@
-.container-accueil{
+.container-accueil {
     display: flex;
     justify-content: space-around;
+    background-color: #ff0000;
+    flex-direction: row-reverse;
 }
-nav ul{
+nav{
+    display: flex;
+flex-direction: column;
+width: 15vw;
+margin-top: 1%;
+}
+nav figure {
+    display: flex;
+    width: 100%;
+    color: white;
+    height: 20vh;
+}
+nav figure img{
+    height: 18vh;
+}
+nav figure figcaption{
+    font-family: $font-texte;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+nav ul {
     list-style: none;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 2rem;
 }
-.letter{
+
+.letter {
     font-family: $font-titre;
     writing-mode: sideways-lr;
+    font-size: 12rem;
+    color: #ff6000;
 }
