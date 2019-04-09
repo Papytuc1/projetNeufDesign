@@ -60,7 +60,7 @@ svg {
   text-decoration: none;
   color: white; }
 
-.aside-propos h1 {
+.aside-propos h2 {
   font-family: "reglobold", sans-serif;
   color: #ff0000;
   letter-spacing: 0.3vh;
@@ -86,12 +86,12 @@ svg {
   display: flex;
   height: 77vh; }
 
-.design h2 {
+.design h1 {
   font-family: "reglobold", sans-serif;
   writing-mode: sideways-lr;
-  font-size: 12.2rem;
+  font-size: 13.2rem;
   font-weight: inherit;
-  margin-top: -8.9vw;
+  margin-top: -12.3vw;
   letter-spacing: 3vw;
   color: #ad9aca;
   opacity: 0.5; }
@@ -106,18 +106,22 @@ svg {
 .d {
   font-family: "reglobold", sans-serif;
   writing-mode: sideways-lr;
-  font-size: 12.2rem;
+  font-size: 13.2rem;
   font-weight: inherit;
-  margin-top: -11.8vw;
-  letter-spacing: 11vw;
   color: #b50065;
   opacity: 0.5;
-  margin-left: 42.5vw; }
+  margin-left: 3vw; }
 
 .en-bas {
   width: 100vw;
-  height: 11vh;
-  background-color: #ff0000; }
+  height: 12vh;
+  background-color: #ff0000;
+  display: flex;
+  justify-content: center; }
+
+.design h2 {
+  font-family: "reglobold", sans-serif;
+  writing-mode: sideways-lr; }
 
 .container-accueil {
   display: flex;
