@@ -13,6 +13,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  overflow-y: hidden; }
+
 .path {
   font-family: "reglobold", sans-serif;
   stroke-dasharray: 1000;
@@ -86,6 +89,9 @@ svg {
   display: flex;
   height: 77vh; }
 
+.article-propos {
+  width: 57%; }
+
 .design h1 {
   font-family: "reglobold", sans-serif;
   writing-mode: sideways-lr;
@@ -154,6 +160,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
+  font-family: "reglobold", sans-serif;
   color: white;
   font-size: 2rem; }
 
@@ -162,5 +169,22 @@ nav ul li a {
   writing-mode: sideways-lr;
   font-size: 12rem;
   color: #ff6000; }
+
+/* 
+    Created on : 8 avr. 2019, 14:42:41
+    Author     : eric
+*/
+.container-contact {
+  width: 100vw;
+  height: 200vh;
+  background: url(../asset/img/contact-bg.jpg) no-repeat;
+  background-size: contain; }
+
+.left-menu {
+  display: flex; }
+
+.menu-contact {
+  justify-content: space-between;
+  flex-direction: row; }
 
 /*# sourceMappingURL=style.css.map */

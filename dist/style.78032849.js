@@ -117,11 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-<<<<<<< HEAD
 })({"../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
-=======
-})({"../../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
->>>>>>> d746337d81663ecee4fb2f6fadb38d708882f7eb
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -153,11 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-<<<<<<< HEAD
 },{}],"../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
-=======
-},{}],"../../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
->>>>>>> d746337d81663ecee4fb2f6fadb38d708882f7eb
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -192,20 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-<<<<<<< HEAD
 },{"./bundle-url":"../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/style.css":[function(require,module,exports) {
-=======
-},{"./bundle-url":"../../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/style.css":[function(require,module,exports) {
->>>>>>> d746337d81663ecee4fb2f6fadb38d708882f7eb
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-<<<<<<< HEAD
-},{"/home/simoccjavmonp06/Bureau/projet-html-css/projetNeufDesign/asset/font/reglo-bold-webfont.woff2":[["reglo-bold-webfont.425668c2.woff2","asset/font/reglo-bold-webfont.woff2"],"asset/font/reglo-bold-webfont.woff2"],"/home/simoccjavmonp06/Bureau/projet-html-css/projetNeufDesign/asset/font/reglo-bold-webfont.woff":[["reglo-bold-webfont.49e81708.woff","asset/font/reglo-bold-webfont.woff"],"asset/font/reglo-bold-webfont.woff"],"/home/simoccjavmonp06/Bureau/projet-html-css/projetNeufDesign/asset/font/font-letter-gothic/LetterGothicStd.woff2":[["LetterGothicStd.d03792e9.woff2","asset/font/font-letter-gothic/LetterGothicStd.woff2"],"asset/font/font-letter-gothic/LetterGothicStd.woff2"],"/home/simoccjavmonp06/Bureau/projet-html-css/projetNeufDesign/asset/font/font-letter-gothic/LetterGothicStd.woff":[["LetterGothicStd.e200e4e9.woff","asset/font/font-letter-gothic/LetterGothicStd.woff"],"asset/font/font-letter-gothic/LetterGothicStd.woff"],"_css_loader":"../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
-=======
-},{"./../asset/font/reglo-bold-webfont.woff2":[["reglo-bold-webfont.425668c2.woff2","asset/font/reglo-bold-webfont.woff2"],"asset/font/reglo-bold-webfont.woff2"],"./../asset/font/reglo-bold-webfont.woff":[["reglo-bold-webfont.49e81708.woff","asset/font/reglo-bold-webfont.woff"],"asset/font/reglo-bold-webfont.woff"],"./../asset/font/font-letter-gothic/LetterGothicStd.woff2":[["LetterGothicStd.d03792e9.woff2","asset/font/font-letter-gothic/LetterGothicStd.woff2"],"asset/font/font-letter-gothic/LetterGothicStd.woff2"],"./../asset/font/font-letter-gothic/LetterGothicStd.woff":[["LetterGothicStd.e200e4e9.woff","asset/font/font-letter-gothic/LetterGothicStd.woff"],"asset/font/font-letter-gothic/LetterGothicStd.woff"],"./../asset/img/contact-bg.jpg":[["contact-bg.1e614c51.jpg","asset/img/contact-bg.jpg"],"asset/img/contact-bg.jpg"],"_css_loader":"../../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
->>>>>>> d746337d81663ecee4fb2f6fadb38d708882f7eb
+},{"/home/simoccjavmonp06/Bureau/projet-html-css/projetNeufDesign/asset/font/reglo-bold-webfont.woff2":[["reglo-bold-webfont.425668c2.woff2","asset/font/reglo-bold-webfont.woff2"],"asset/font/reglo-bold-webfont.woff2"],"/home/simoccjavmonp06/Bureau/projet-html-css/projetNeufDesign/asset/font/reglo-bold-webfont.woff":[["reglo-bold-webfont.49e81708.woff","asset/font/reglo-bold-webfont.woff"],"asset/font/reglo-bold-webfont.woff"],"/home/simoccjavmonp06/Bureau/projet-html-css/projetNeufDesign/asset/font/font-letter-gothic/LetterGothicStd.woff2":[["LetterGothicStd.d03792e9.woff2","asset/font/font-letter-gothic/LetterGothicStd.woff2"],"asset/font/font-letter-gothic/LetterGothicStd.woff2"],"/home/simoccjavmonp06/Bureau/projet-html-css/projetNeufDesign/asset/font/font-letter-gothic/LetterGothicStd.woff":[["LetterGothicStd.e200e4e9.woff","asset/font/font-letter-gothic/LetterGothicStd.woff"],"asset/font/font-letter-gothic/LetterGothicStd.woff"],"./../asset/img/contact-bg.jpg":[["contact-bg.1e614c51.jpg","asset/img/contact-bg.jpg"],"asset/img/contact-bg.jpg"],"_css_loader":"../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -233,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40303" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42449" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -408,9 +392,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-<<<<<<< HEAD
 },{}]},{},["../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-=======
-},{}]},{},["../../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
->>>>>>> d746337d81663ecee4fb2f6fadb38d708882f7eb
 //# sourceMappingURL=/style.78032849.js.map

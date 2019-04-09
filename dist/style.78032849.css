@@ -13,12 +13,13 @@
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  overflow-y: hidden; }
+
 .path {
   font-family: "reglobold", sans-serif;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-<<<<<<< HEAD
-<<<<<<< HEAD
   animation: dash 40s linear forwards; }
 
 svg {
@@ -31,19 +32,6 @@ svg {
   height: 100vh;
   display: flex;
   flex-direction: row-reverse; }
-=======
-=======
->>>>>>> d746337d81663ecee4fb2f6fadb38d708882f7eb
-  animation: dash 10s linear forwards; }
-
-svg {
-  height: 120vh;
-  width: auto;
-  transform: translateY(-35vh); }
-<<<<<<< HEAD
->>>>>>> 268e4935cb8c9c37bacd95a74a2b22353c3701c3
-=======
->>>>>>> d746337d81663ecee4fb2f6fadb38d708882f7eb
 
 @keyframes dash {
   from {
@@ -53,14 +41,8 @@ svg {
 /* Partie Justine, A propos */
 .en-tete {
   width: 100vw;
-<<<<<<< HEAD
   height: 11vh;
   background-color: #ff0000; }
-=======
-  height: 25vh;
-  position: absolute;
-  background-color: #ff2e31; }
->>>>>>> d746337d81663ecee4fb2f6fadb38d708882f7eb
 
 .en-tete ul {
   width: 100%;
@@ -71,7 +53,6 @@ svg {
   height: 75%; }
 
 .en-tete li {
-<<<<<<< HEAD
   margin-left: 8vw;
   font-family: "reglobold", sans-serif;
   color: white; }
@@ -107,6 +88,9 @@ svg {
 .container-propos {
   display: flex;
   height: 77vh; }
+
+.article-propos {
+  width: 57%; }
 
 .design h1 {
   font-family: "reglobold", sans-serif;
@@ -145,31 +129,6 @@ svg {
   font-family: "reglobold", sans-serif;
   writing-mode: sideways-lr; }
 
-=======
-  margin-left: 80px;
-  font-family: "reglobold", sans-serif; }
-
-.en-tete li a {
-  margin-right: 70px;
-  font-family: "reglobold", sans-serif; }
-
->>>>>>> d746337d81663ecee4fb2f6fadb38d708882f7eb
-.container-accueil {
-  display: flex;
-  justify-content: space-around; }
-
-nav ul {
-  list-style: none; }
-
-nav ul li a {
-  text-decoration: none;
-  color: black; }
-
-.letter {
-  font-family: "reglobold", sans-serif;
-  writing-mode: sideways-lr; }
-
-<<<<<<< HEAD
 .container-accueil {
   display: flex;
   justify-content: space-around;
@@ -201,6 +160,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
+  font-family: "reglobold", sans-serif;
   color: white;
   font-size: 2rem; }
 
@@ -209,7 +169,7 @@ nav ul li a {
   writing-mode: sideways-lr;
   font-size: 12rem;
   color: #ff6000; }
-=======
+
 /* 
     Created on : 8 avr. 2019, 14:42:41
     Author     : eric
@@ -220,14 +180,12 @@ nav ul li a {
   background: url(/contact-bg.1e614c51.jpg) no-repeat;
   background-size: contain; }
 
-.container-contact {
-  display: flex;
-  justify-content: flex-end; }
+.left-menu {
+  display: flex; }
 
 .menu-contact {
-  display: flex;
+  justify-content: space-between;
   flex-direction: row; }
->>>>>>> d746337d81663ecee4fb2f6fadb38d708882f7eb
 
 
 
