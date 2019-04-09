@@ -3,3 +3,23 @@
     Author     : eric
 */
 
+.container-contact {
+    width: 100vw;
+    height: 200vh;
+    background: url(../asset/img/contact-bg.jpg) no-repeat;
+    background-size: contain;
+}
+
+.container-contact{
+
+}
+
+.left-menu {
+    display: flex;
+}
+
+.menu-contact {
+    justify-content: space-between;
+    flex-direction: row;
+}
+

@@ -17,11 +17,12 @@
   font-family: "reglobold", sans-serif;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 5s linear alternate infinite; }
+  animation: dash 10s linear forwards; }
 
-.svg-container {
-  height: auto;
-  width: 100%; }
+svg {
+  height: 120vh;
+  width: auto;
+  transform: translateY(-35vh); }
 
 @keyframes dash {
   from {
@@ -50,6 +51,39 @@
 .en-tete li a {
   margin-right: 70px;
   font-family: "reglobold", sans-serif; }
+
+.container-accueil {
+  display: flex;
+  justify-content: space-around; }
+
+nav ul {
+  list-style: none; }
+
+nav ul li a {
+  text-decoration: none;
+  color: black; }
+
+.letter {
+  font-family: "reglobold", sans-serif;
+  writing-mode: sideways-lr; }
+
+/* 
+    Created on : 8 avr. 2019, 14:42:41
+    Author     : eric
+*/
+.container-contact {
+  width: 100vw;
+  height: 200vh;
+  background: url(/contact-bg.1e614c51.jpg) no-repeat;
+  background-size: contain; }
+
+.container-contact {
+  display: flex;
+  justify-content: flex-end; }
+
+.menu-contact {
+  display: flex;
+  flex-direction: row; }
 
 
 
