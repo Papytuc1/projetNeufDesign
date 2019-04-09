@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'reglobold';
-  src: url("/asset/font/reglo-bold-webfont.woff2") format("woff2"), url("/asset/font/reglo-bold-webfont.woff") format("woff");
+  src: url("/reglo-bold-webfont.425668c2.woff2") format("woff2"), url("/reglo-bold-webfont.49e81708.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'Letter Gothic Std';
-  src: url("/asset/font/font-letter-gothic/LetterGothicStd.woff2") format("woff2"), url("/asset/font/font-letter-gothic/LetterGothicStd.woff") format("woff");
+  src: url("/LetterGothicStd.d03792e9.woff2") format("woff2"), url("/LetterGothicStd.e200e4e9.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 * {
@@ -109,4 +109,7 @@
   height: 11vh;
   background-color: #ff0000; }
 
-/*# sourceMappingURL=style.css.map */
+
+
+
+/*# sourceMappingURL=/style.78032849.css.map */
