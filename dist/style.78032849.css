@@ -15,10 +15,20 @@
 
 .path {
   font-family: "reglobold", sans-serif;
-  font-size: 144px;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 5s linear alternate infinite; }
+  animation: dash 40s linear forwards; }
+
+svg {
+  height: 150vh;
+  /* 150vh */
+  width: auto;
+  transform: translateY(-22vh); }
+
+.svg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse; }
 
 @keyframes dash {
   from {
@@ -108,6 +118,46 @@
   width: 100vw;
   height: 11vh;
   background-color: #ff0000; }
+
+.container-accueil {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ff0000;
+  flex-direction: row-reverse; }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  margin-top: 1%; }
+
+nav figure {
+  display: flex;
+  width: 100%;
+  color: white;
+  height: 20vh; }
+
+nav figure img {
+  height: 18vh; }
+
+nav figure figcaption {
+  font-family: "Letter Gothic Std", sans-serif;
+  font-size: 1.5rem;
+  align-self: center; }
+
+nav ul {
+  list-style: none; }
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem; }
+
+.letter {
+  font-family: "reglobold", sans-serif;
+  writing-mode: sideways-lr;
+  font-size: 12rem;
+  color: #ff6000; }
 
 
 
