@@ -13,6 +13,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Letter Gothic Std Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/asset/font/font-letter-gothic/LetterGothicStd-Bold.woff') format('woff');
+}
 *{
     margin: 0;
     padding: 0;

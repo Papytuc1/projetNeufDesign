@@ -4,41 +4,97 @@
     background-color: #ff0000;
     flex-direction: row-reverse;
 }
-nav{
+
+nav {
     display: flex;
-flex-direction: column;
-width: 15vw;
-margin-top: 1%;
+    flex-direction: column;
+    width: 20vw;
+    justify-content: center;
 }
+
 nav figure {
     display: flex;
     width: 100%;
     color: white;
-    height: 20vh;
+    height: 22vh;
 }
-nav figure img{
-    height: 18vh;
+
+nav figure img {
+    height: 13vh;
 }
-nav figure figcaption{
+
+nav figure figcaption {
     font-family: $font-texte;
     font-size: 1.5rem;
-    align-self: center;
+    align-self: end;
+    margin-left: 9%;
+    margin-bottom: 4%;
 }
 
 nav ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 83%;
+    align-self: end;
+
 }
 
 nav ul li a {
     text-decoration: none;
     font-family: $font-titre;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .letter {
     font-family: $font-titre;
     writing-mode: sideways-lr;
-    font-size: 12rem;
+    font-size: 14rem;
     color: #ff6000;
+}
+
+.svg-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.svg-container h2 {
+    margin-bottom: 4%;
+    align-self: flex-end;
+    color: white;
+    font-family: $font-texte;
+    filter: blur(7px);
+    opacity: 0;
+    animation: apear 1s forwards 2s;
+    -webkit-animation: apear 1s forwards 2s;
+}
+
+#neuf {
+    font-family: 'Letter Gothic Std Bold';
+    font-weight: bold;
+}
+
+@keyframes apear {
+    from {
+        opacity: 0;
+        filter: blur(7px)
+    }
+
+    to {
+        opacity: 1;
+        filter: blur(0px);
+    }
+}
+
+@-webkit-keyframes apear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }

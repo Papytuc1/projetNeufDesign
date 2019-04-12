@@ -8,6 +8,11 @@
   src: url("/asset/font/font-letter-gothic/LetterGothicStd.woff2") format("woff2"), url("/asset/font/font-letter-gothic/LetterGothicStd.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: 'Letter Gothic Std Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/asset/font/font-letter-gothic/LetterGothicStd-Bold.woff") format("woff"); }
 * {
   margin: 0;
   padding: 0;
@@ -20,20 +25,20 @@ body {
   font-family: "reglobold", sans-serif;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: dash 40s linear forwards; }
+  animation: dash 40s linear forwards;
+  -webkit-animation: dash 40s linear forwards; }
 
 svg {
   height: 150vh;
-  /* 150vh */
   width: auto;
   transform: translateY(-22vh); }
 
-.svg-container {
-  height: 100vh;
-  display: flex;
-  flex-direction: row-reverse; }
-
 @keyframes dash {
+  from {
+    stroke-dashoffset: 1000; }
+  to {
+    stroke-dashoffset: 0; } }
+@-webkit-keyframes dash {
   from {
     stroke-dashoffset: 1000; }
   to {
@@ -138,38 +143,76 @@ svg {
 nav {
   display: flex;
   flex-direction: column;
-  width: 15vw;
-  margin-top: 1%; }
+  width: 20vw;
+  justify-content: center; }
 
 nav figure {
   display: flex;
   width: 100%;
   color: white;
-  height: 20vh; }
+  height: 22vh; }
 
 nav figure img {
-  height: 18vh; }
+  height: 13vh; }
 
 nav figure figcaption {
   font-family: "Letter Gothic Std", sans-serif;
   font-size: 1.5rem;
-  align-self: center; }
+  align-self: end;
+  margin-left: 9%;
+  margin-bottom: 4%; }
 
 nav ul {
-  list-style: none; }
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 83%;
+  align-self: end; }
 
 nav ul li a {
   text-decoration: none;
   font-family: "reglobold", sans-serif;
   color: white;
-  font-size: 2rem; }
+  font-size: 1.5rem; }
 
 .letter {
   font-family: "reglobold", sans-serif;
   writing-mode: sideways-lr;
-  font-size: 12rem;
+  font-size: 14rem;
   color: #ff6000; }
 
+.svg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse; }
+
+.svg-container h2 {
+  margin-bottom: 4%;
+  align-self: flex-end;
+  color: white;
+  font-family: "Letter Gothic Std", sans-serif;
+  filter: blur(7px);
+  opacity: 0;
+  animation: apear 1s forwards 2s;
+  -webkit-animation: apear 1s forwards 2s; }
+
+#neuf {
+  font-family: 'Letter Gothic Std Bold';
+  font-weight: bold; }
+
+@keyframes apear {
+  from {
+    opacity: 0;
+    filter: blur(7px); }
+  to {
+    opacity: 1;
+    filter: blur(0px); } }
+@-webkit-keyframes apear {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 /* 
     Created on : 8 avr. 2019, 14:42:41
     Author     : eric
