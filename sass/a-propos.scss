@@ -1,17 +1,6 @@
 /* Partie Justine, A propos */
 .red-bar {
     width: 100vw;
-<<<<<<< HEAD
-    height: 11vh;
-    background-color: #ff0000;
-    position: relative;
-    z-index: 1;
-}
-
-.red-bar ul {
-
-    width: 100%;
-=======
     height: 11vh;  
     background-color:#ff0000;
     display: flex;
@@ -20,22 +9,9 @@
 
 .en-tete ul{ /* modif par Eric */
     width: 50vh;
->>>>>>> 5a0560ee7c14ac2613f30ae78774be2936f91227
     list-style: none;
     display: flex;
     height: 75%;
-<<<<<<< HEAD
-}
-
-.red-bar li {
-    margin-left: 8vw;
-    font-family: "reglobold", sans-serif;
-    color: white;
-
-}
-
-.red-bar li a {
-=======
     justify-content: flex-end;
 }
 
@@ -57,7 +33,6 @@
 }
 
 .en-tete li a{ /* modif par Eric */
->>>>>>> 5a0560ee7c14ac2613f30ae78774be2936f91227
     margin-right: 70px;
     font-family: $font-titre;
     text-decoration: none;
