@@ -1,37 +1,68 @@
 /* Partie Justine, A propos */
-.en-tete{
+.red-bar {
     width: 100vw;
     height: 11vh;  
     background-color:#ff0000;
+    display: flex;
+    justify-content: flex-end;
 }
-.en-tete ul{
-    width: 100%;
+
+.en-tete ul{ /* modif par Eric */
+    width: 50vh;
     list-style: none;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     height: 75%;
-  }
-.en-tete li{
+    justify-content: flex-end;
+}
+
+#vertical-line{ /* implant par Eric */
+    width:1px;
+    height:10%;
+    position:absolute;
+     background-image: linear-gradient(rgba(255,255,255,0), white,rgba(255,255,255,0));
+    margin:0;
+    padding:0;
+    right: 18%;
+}
+
+.en-tete li{ /* modif par Eric */
+    margin-top: 5vh;
     margin-left: 8vw;
     font-family: "reglobold", sans-serif;
     color: white;
-    
 }
-.en-tete li a{
+
+.en-tete li a{ /* modif par Eric */
     margin-right: 70px;
     font-family: $font-titre;
     text-decoration: none;
     color: white;
 }
+
+.en-tete li img { /* modif par Eric */
+    height: 110%;
+}
+
+.en-tete section {
+    height: 5vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.en-tete section img {
+    height: 10vh;
+    margin-right: 4vh;
+}
+
 .aside-propos h2{
     font-family: "reglobold", sans-serif;
     color: #ff0000;
     letter-spacing: 0.3vh;
     font-weight: inherit;
+    font-size: 120%;
 }
-.aside-propos{
-    color:#603896;
+
+.aside-propos {
+    color: #603896;
     flex-direction: column;
     width: 25%;
     display: flex;
@@ -39,56 +70,128 @@
     margin-left: 8vw;
     margin-top: 4.5vw;
     height: 30vw;
-    
+
 }
-.aside-propos p{
+
+.aside-propos p {
     font-weight: bold;
-    font-family: $font-texte ;
+    font-family: $font-texte;
     line-height: 2vw;
     font-size: 0.8vw;
 }
-.container-propos{
+
+.container-propos {
     display: flex;
     height: 77vh;
 }
-.article-propos{
+
+.article-propos {
     width: 57%;
 }
-.design h1{
+
+
+/* .design h1{
     font-family: "reglobold", sans-serif;
     writing-mode: sideways-lr;
     font-size: 13.2rem;
     font-weight: inherit;
     margin-top: -12.3vw;
-    letter-spacing: 3vw;
+    
     color:#ad9aca;
     opacity: 0.5;
 }
-.separation{
-    width: 10vw;
-}
+
 .n{
-color: #b50065;
-font-family: "reglobold", sans-serif;
+    color: #b50065;
+    font-family: "reglobold", sans-serif;
 }
 .d{
     font-family: "reglobold", sans-serif;
     writing-mode: sideways-lr;
     font-size: 13.2rem;
-    font-weight: inherit;
+    
     color: #b50065;
     opacity: 0.5;
     margin-left: 3vw;
-}
-.en-bas{
+} */
 
-    width: 100vw;
-    height: 12vh;  
-    background-color:#ff0000;
-    display: flex;
-    justify-content: center;
-}
-.design h2{
+/* .design h2{
     font-family: "reglobold", sans-serif;
     writing-mode: sideways-lr;
+} */
+
+.reverse {
+    writing-mode: sideways-lr;
+
+}
+
+.spacing {
+    letter-spacing: 2.9vw;
+
+
+}
+
+.design {
+    display: flex;
+    flex-direction: column-reverse;
+    position: absolute;
+    height: 89.1%;
+    width: 40%;
+    z-index: 5;
+}
+
+.design h1 {
+    display: flex;
+    font-family: $font-titre;
+    font-weight: inherit;
+
+}
+
+.design h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.taille-lettre {
+    font-size: 13.2rem;
+}
+
+.projets {
+    font-size: 5rem;
+    position: absolute;
+    left: 72%;
+    display: flex;
+    align-self: end;
+    font-size: 6rem;
+    letter-spacing: 0.3vw;
+    color: #ad9aca;
+}
+
+.design-neuf {
+    font-size: 2rem;
+    letter-spacing: 0.2vw;
+    position: absolute;
+    right: 60%;
+    top: 9.2%;
+    color: #ff0000;
+}
+
+.bloc {
+    width: 100%;
+}
+
+.bas {
+    height: 12vh;
+
+}
+
+.color {
+    color: #b50065;
+    opacity: 0.9;
+}
+
+.esi {
+    color: #ad9aca;
 }
