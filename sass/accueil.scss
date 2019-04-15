@@ -19,10 +19,12 @@ nav figure {
     width: 100%;
     color: white;
     height: 22vh;
+    align-items: end;
 }
 
 nav figure img {
     height: 13vh;
+    align-self: center;
 }
 
 nav figure figcaption {
@@ -61,7 +63,7 @@ nav ul li a {
     color: #ff6000;
     height: 10%;
     align-self: self-start;
-    margin-top: -5%;
+    width: 40%;
 }
 
 .svg-container {

@@ -94,7 +94,8 @@ svg {
   font-family: "reglobold", sans-serif;
   font-weight: inherit;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  border: 1px black solid; }
 
 .taille-lettre {
   font-size: 13.2rem; }
@@ -157,10 +158,12 @@ nav figure {
   display: flex;
   width: 100%;
   color: white;
-  height: 22vh; }
+  height: 22vh;
+  align-items: end; }
 
 nav figure img {
-  height: 13vh; }
+  height: 13vh;
+  align-self: center; }
 
 nav figure figcaption {
   font-family: "Letter Gothic Std", sans-serif;
@@ -195,7 +198,7 @@ nav ul li a {
   color: #ff6000;
   height: 10%;
   align-self: self-start;
-  margin-top: -5%; }
+  width: 40%; }
 
 .svg-container {
   height: 100vh;
