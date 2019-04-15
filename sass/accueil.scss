@@ -1,3 +1,5 @@
+
+/* Accueil */
 .container-accueil {
     display: flex;
     justify-content: space-around;
@@ -29,7 +31,6 @@ nav figure figcaption {
     margin-left: 9%;
     margin-bottom: 4%;
 }
-
 nav ul {
     list-style: none;
     display: flex;
@@ -47,11 +48,20 @@ nav ul li a {
     font-size: 1.5rem;
 }
 
-.letter {
+/* .letter {
     font-family: $font-titre;
     writing-mode: sideways-lr;
     font-size: 14rem;
     color: #ff6000;
+} */
+.letter {
+    font-family: $font-titre;
+    transform: rotate(-90deg);
+    font-size: 14rem;
+    color: #ff6000;
+    height: 10%;
+    align-self: self-start;
+    margin-top: -5%;
 }
 
 .svg-container {
