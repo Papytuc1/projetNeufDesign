@@ -73,6 +73,12 @@ svg {
   display: flex;
   height: 77vh; }
 
+.lignes {
+  position: absolute;
+  margin-top: -1%;
+  /* margin-top: -3.1%; */
+  height: 91%; }
+
 .imgdesign {
   opacity: 0.9;
   margin-top: -9.6%;
@@ -88,11 +94,12 @@ svg {
   font-family: "reglobold", sans-serif;
   font-weight: inherit;
   font-size: 5rem;
-  display: flex;
-  align-self: end;
+  margin-top: 1%;
+  margin-left: 1%;
   font-size: 6rem;
   letter-spacing: 0.3vw;
-  color: #ad9aca; }
+  color: #ad9aca;
+  opacity: 0.9; }
 
 section .pour-qui hr {
   margin-top: 19.5%;
@@ -101,7 +108,40 @@ section .pour-qui hr {
   color: #ad9aca; }
 
 hr {
-  margin-top: 7%; }
+  margin-top: 6%;
+  margin-left: -8%;
+  color: #ad9aca;
+  height: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none; }
+
+.text9 h2 {
+  font-family: "reglobold", sans-serif;
+  color: #ff0000;
+  font-weight: inherit;
+  font-size: 120%;
+  letter-spacing: 0.1vh;
+  margin-left: 2%; }
+
+.text9 p {
+  color: #603896;
+  font-weight: bold;
+  font-family: "Letter Gothic Std", sans-serif;
+  font-size: 0.8vw;
+  width: 40%;
+  line-height: 1.5vw;
+  margin-top: 6%;
+  margin-left: 2%; }
+
+.deco {
+  line-height: 128%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 79vh;
+  margin-top: 10vh;
+  color: #603896;
+  opacity: 0.5; }
 
 /* Accueil */
 .container-accueil {
